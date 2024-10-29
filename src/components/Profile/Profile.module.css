@@ -1,0 +1,74 @@
+p {
+    margin: 0;
+}
+li {
+    list-style: none;
+}
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 8px;
+    width: 300px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.7);
+}
+.card {
+    margin-bottom: 10px;
+    padding: 15px;
+}
+.image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 0 auto;
+    background-color: cadetblue;
+    overflow: hidden;
+    margin-bottom: 15px;
+}
+.name {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.tag {
+    font-size: 18px;
+    color:dimgrey;
+    margin-bottom: 10px;
+}
+.location {
+    font-size: 18px;
+    width: 100%;
+    color:dimgrey;
+}
+.stats {
+    display: flex;
+    justify-content:space-around;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100%;
+    background-color: lightgray;
+    border-top: 2px solid #808080;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+.statsItem {
+    display: flex;
+    flex-direction: column;
+}
+.label {    
+    font-size: 16px;
+    color: black;
+    margin-bottom: 5px;
+}
+.quantity {
+    font-size: 18px;
+    font-weight: bold;
+}

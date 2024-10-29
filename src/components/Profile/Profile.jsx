@@ -1,30 +1,32 @@
-const Profile = () => {
-  return (
-    <div>
-  <div>
-    <img
-      src="https://cdn-icons-png.flaticon.com/512/1077/1077012.png"
-      alt="User avatar"/>
-    <p>Petra Marica</p>
-    <p>pmarica</p>
-    <p>Salvador, Brasil</p>
-  </div>
+import s from "./Profile.module.css"
 
-  <ul>
-    <li>
-      <span>Followers</span>
-      <span>1000</span>
-    </li>
-    <li>
-      <span>Views</span>
-      <span>2000</span>
-    </li>
-    <li>
-      <span>Likes</span>
-      <span>3000</span>
-    </li>
-  </ul>
-</div>
+const Profile = ({userData}) => {
+  return (
+    <div className={s.container}>
+        <div className={s.card}>
+            <img className={s.image}
+            src={userData.avatar}
+            alt="User avatar"/>
+            <p className={s.name}>{userData.username}</p>
+            <p className={s.tag}>@{userData.tag}</p>
+            <p className={s.location}>{userData.location}</p>
+        </div>
+
+        <ul className={s.stats}>
+            <li className={s.statsItem}>
+            <span className={s.label}>Followers</span>
+            <span className={s.quantity}>{userData.stats.followers}</span>
+            </li>
+            <li className={s.statsItem}>
+            <span className={s.label}>Views</span>
+            <span className={s.quantity}>{userData.stats.views}</span>
+            </li>
+            <li className={s.statsItem}>
+            <span className={s.label}>Likes</span>
+            <span className={s.quantity}>{userData.stats.likes}</span>
+            </li>
+        </ul>
+    </div>
   )
 }
 
