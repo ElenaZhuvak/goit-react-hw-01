@@ -1,0 +1,30 @@
+.tableBox {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.table {
+    margin: 0 auto;
+    width: 40%;
+    text-align: center;
+    border-collapse: collapse;
+}
+.tableHead {
+    color: white;
+    background-color: black;
+    border: 1px solid black
+}
+.tableHead th {
+    padding: 6px;
+}
+.tableRow td {
+    padding: 5px;
+    border: 1px solid black
+}
+.tableRow td:first-child {
+    text-transform: capitalize;
+    text-align: left;
+    
+}
+.tableRow:nth-child(even) {
+    background-color: #f2f2f2;
+}

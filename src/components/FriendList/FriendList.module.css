@@ -1,5 +1,5 @@
 .usersBox {
-    margin-top: 20px;
+    margin-top: 30px;
 }
 .userList {
     margin: 0 auto;
@@ -27,7 +27,7 @@
     font-size: 14px;
 }
 .online {
-    color: rgb(94, 236, 94);
+    color: rgb(59, 245, 59);
 }
 .offline {
     color: rgb(237, 36, 36);
