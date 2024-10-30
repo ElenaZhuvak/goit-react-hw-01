@@ -1,11 +1,14 @@
 import Profile from "./Profile/Profile";
-import profileData from './../assets/userData.json';
+import userData from './../assets/userData.json';
+import FriendList from './FriendList/FriendList';
+import friends from './../assets/friends.json';
 import "modern-normalize";
 
 const App = () => {
   return (
     <div>
-      <Profile userData={profileData} />
+      <Profile userData={userData} />
+       <FriendList friends={friends}/>
     </div>
   )
 }
