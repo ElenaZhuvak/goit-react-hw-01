@@ -16,19 +16,3 @@
     text-align: center;
     
 }
-.userAvatar {
-    margin-bottom: 10px;
-}
-.userName {
-    font-size: 18px;
-    margin-bottom: 5px;
-}
-.status {
-    font-size: 14px;
-}
-.online {
-    color: rgb(59, 245, 59);
-}
-.offline {
-    color: rgb(237, 36, 36);
-}
